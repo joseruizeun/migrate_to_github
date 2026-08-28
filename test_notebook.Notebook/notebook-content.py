@@ -64,6 +64,10 @@ result.show()
 # META   "language_group": "synapse_pyspark"
 # META }
 
+# MARKDOWN ********************
+
+# This is now GITHUB
+
 # CELL ********************
 
 result.write.mode("overwrite").saveAsTable(DEST_FULL_TABLE_NAME)
